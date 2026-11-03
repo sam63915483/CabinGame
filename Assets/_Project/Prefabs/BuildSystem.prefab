@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7375965380216998149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8493585308948098283}
+  - component: {fileID: 7676384908526432979}
+  - component: {fileID: 2343323227453373504}
+  - component: {fileID: 247149495894004284}
+  - component: {fileID: 2003418863289770904}
+  - component: {fileID: 4350831037294530486}
+  - component: {fileID: 2655750657616414131}
+  m_Layer: 0
+  m_Name: BuildSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8493585308948098283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7676384908526432979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a22b6fcc39590e44b23ad3545f2249a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Build.BuildSite
+  lumberMaterial: {fileID: 2100000, guid: f25f020db7ac6e44ba6a49fc103fd960, type: 2}
+  plywoodMaterial: {fileID: 2100000, guid: 64adc8d0512c1774cb1434417f8ff501, type: 2}
+  concreteMaterial: {fileID: 2100000, guid: 89066aec4115f4a4a978063819867f6a, type: 2}
+  nailHeadPrefab: {fileID: 3781911168441021405, guid: 350bd5bf8a100a64284d2980ff8ead68, type: 3}
+  nailShotPrefab: {fileID: 8563307293345920249, guid: c95bd93f45544c1499dc625327b1ade4, type: 3}
+  clampMaterial: {fileID: 2100000, guid: 4f67cccd47ff4ef41ac987c0ed431fe0, type: 2}
+  steelMaterial: {fileID: 2100000, guid: 70ac31d7884ba8a4782457d279ca5eb5, type: 2}
+  paintMaterial: {fileID: 2100000, guid: 34f55c9849495e74c98d5cb069ef345e, type: 2}
+  sawKerf: 0.003175
+--- !u!114 &2343323227453373504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0c8810079385445bdebe5cd2ab27e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Build.CarryController
+  site: {fileID: 7676384908526432979}
+  minDistance: 0.8
+  maxDistance: 6
+  moveGain: 14
+  maxSpeed: 7
+  turnGain: 14
+  maxTurnSpeed: 12
+  dragDegreesPerPixel: 0.3
+  pilotSpeed: 2.4
+  pilotSlowSpeed: 0.5
+  orbitDegreesPerPixel: 0.15
+--- !u!114 &247149495894004284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1abd012b357bcf4092d0ba05e795eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Build.GhostPreview
+  validMaterial: {fileID: 2100000, guid: 81b3fae74d468d248840874290a57b05, type: 2}
+  invalidMaterial: {fileID: 2100000, guid: 0ed4183e6e4a0b34d93523432113dbf4, type: 2}
+  bladeMaterial: {fileID: 2100000, guid: 2a7191732134ed54db351571dffad846, type: 2}
+  cubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2003418863289770904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3e43a5d4c5b4d41b95678158944134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Build.SprayCan
+  site: {fileID: 7676384908526432979}
+  mistMaterial: {fileID: 2100000, guid: c8b162a3f0abb0a4eae9dd000df30297, type: 2}
+--- !u!114 &4350831037294530486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee4e064d2f33044cbdfed2dca210a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Build.BuildToolbelt
+  site: {fileID: 7676384908526432979}
+  carry: {fileID: 2343323227453373504}
+  ghost: {fileID: 247149495894004284}
+  can: {fileID: 2003418863289770904}
+  reach: 4
+  nailGunIcon: {fileID: 2800000, guid: 68719919d8ba58d4da28b4095926142d, type: 3}
+  sawIcon: {fileID: 2800000, guid: 63b93ada900e7e745b2717f8a4630f1d, type: 3}
+  sprayIcon: {fileID: 2800000, guid: 202565dc377cd0844a074a8ca370a4bf, type: 3}
+  axeIcon: {fileID: 2800000, guid: cd5141f7579ec5c40bc4e40eef94b5fd, type: 3}
+--- !u!114 &2655750657616414131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375965380216998149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197c6ad805cc1a649a9533b99f429bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Build.BuildHud
+  toolbelt: {fileID: 4350831037294530486}

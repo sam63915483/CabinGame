@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b001c2dac1dc31343bfd73e9b09c44d1, type: 3}
+  m_Name: MapRecipe
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Map.MapRecipe
+  zoom: 10
+  centreLongitude: -63.03
+  centreLatitude: 45.25
+  realMetresPerMetre: 68
+  landAbove: 3
+  tilesX: 8
+  tilesZ: 7
+  tileSize: 1024
+  heightmapResolution: 513
+  alphamapResolution: 512
+  seaFloorDepth: 30
+  maxHeight: 270
+  coarseCell: 8
+  linearScale: 0.1
+  quadraticScale: 0.00028
+  smoothing: 10
+  regionScale: 500
+  regionHigh: 250
+  warpAmount: 70
+  lowBroad: 30
+  lowHill: 13
+  highHillGain: 1.6
+  mountainHeight: 80
+  terraceStep: 28
+  terraceBlend: 0.5
+  terraceWarp: 40
+  hardBand: 10
+  shoreCalm: 90
+  seaCliffHeight: 22
+  ribHeight: 7
+  erosionIterations: 80
+  erosionRate: 0.02
+  diffusion: 0.12
+  maxIncisionLow: 25
+  maxIncisionHigh: 80
+  pondScale: 250
+  pondThreshold: 0.54
+  pondDepth: 5
+  lakeScale: 1500
+  lakeThreshold: 0.55
+  lakeDepth: 12
+  lakeCountryCentre: {x: -0.3, y: -0.35}
+  lakeCountryBias: 0.6
+  riverCatchmentKm2: 0.03
+  lakeMinDepth: 0.25
+  lakeMinCells: 20
+  fallSlope: 0.35
+  fallMinHeight: 2.5
+  detailHeight: 1.6
+  detailScale: 45
+  rockDetailHeight: 5
+  rockDetailScale: 70
+  rockFrom: 50
+  rockFull: 150
+  beachSlope: 9
+  beachWidth: 10
+  bankWidth: 4
+  lakeDepthSlope: 0.12
+  lakeMaxDepth: 7
+  rockDensity: 0
+  seed: 46045
+  dirtSlope: 30
+  rockSlope: 44
+  beachHeight: 1.4

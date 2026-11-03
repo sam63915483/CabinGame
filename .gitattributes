@@ -1,0 +1,30 @@
+# Normalise text
+* text=auto
+
+# Unity YAML: Smart Merge (UnityYAMLMerge as the merge driver; see docs/STATUS.md)
+*.unity    merge=unityyamlmerge eol=lf
+*.prefab   merge=unityyamlmerge eol=lf
+*.asset    merge=unityyamlmerge eol=lf
+*.mat      merge=unityyamlmerge eol=lf
+*.anim     merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.meta     eol=lf
+
+# Binaries (this public copy stores them in plain git, no LFS: no file is over 50 MB)
+*.fbx  binary
+*.FBX  binary
+*.obj  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.tga  binary
+*.psd  binary
+*.exr  binary
+*.hdr  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.ttf  binary
+*.otf  binary
+*.glb  binary
+Assets/Generated/**/*.asset -diff

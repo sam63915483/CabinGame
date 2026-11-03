@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5982367614827238768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_Size
+      value: 8.299427
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_FadeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalReferencePoint.y
+      value: 3.8569984
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalReferencePoint.z
+      value: 0.11951733
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LODs.Array.data[0].fadeTransitionWidth
+      value: 0.05694666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LODs.Array.data[1].fadeTransitionWidth
+      value: 0.102974795
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.12294274
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.03951731
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435035862861603517, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174534228882052556, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844216368404959094, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      propertyPath: m_Name
+      value: FF_Tree_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6844216368404959094, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4045574090131621649}
+  m_SourcePrefab: {fileID: 100100000, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+--- !u!1 &1008288584146688518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6844216368404959094, guid: 987e02319c5b60c44a06e8af7f7b2d75, type: 3}
+  m_PrefabInstance: {fileID: 5982367614827238768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4045574090131621649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008288584146688518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f4fb7a76c224c428bca570cbe210e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Forestry.ChoppableTree
+  mesh: {fileID: 2146267892512486069, guid: fc3a698265f4b224190d784ad43b28d6, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 8f9c49726dac6b14f8a6d5df92cfdffc, type: 2}
+  radii:
+  - 0.26817578
+  - 0.24414934
+  - 0.21904463
+  - 0.20306441
+  - 0.19906937
+  - 0.1980706
+  - 0.1978209
+  - 0.19775848
+  - 0.19774288
+  - 0.19304696
+  - 0.18248892
+  - 0.17723724
+  - 0.17070001
+  - 0.16906571
+  - 0.16865714
+  - 0.16855499
+  - 0.16588932
+  - 0.15994266
+  - 0.15845598
+  - 0.15621987
+  - 0.14928265
+  - 0.14224973
+  - 0.14049152
+  - 0.14005196
+  - 0.13994206
+  - 0.1399146
+  - 0.13990773
+  - 0.13990602
+  - 0.13990559
+  - 0.1343537
+  - 0.11769831
+  bark: {r: 0.33885458, g: 0.26198077, b: 0.16786015, a: 1}
+  height: 8.005587

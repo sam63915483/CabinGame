@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7951929736242375847
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 121589336745577549, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_Name
+      value: FV_Tree_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 784796726962837239, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529918820292813190, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_FadeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529918820292813190, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LODs.Array.data[0].fadeTransitionWidth
+      value: 0.068362445
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529918820292813190, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LODs.Array.data[1].fadeTransitionWidth
+      value: 0.102974825
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529918820292813190, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.14403847
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529918820292813190, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.04629808
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529918820292813190, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 121589336745577549, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6039880612537952189}
+  m_SourcePrefab: {fileID: 100100000, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+--- !u!1 &8067377591841300714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 121589336745577549, guid: cbb0bb52fb4b3bb46977a58b22491efe, type: 3}
+  m_PrefabInstance: {fileID: 7951929736242375847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6039880612537952189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8067377591841300714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f4fb7a76c224c428bca570cbe210e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Cabin.Runtime::Cabin.Forestry.ChoppableTree
+  mesh: {fileID: -1923736059268710519, guid: fc3a698265f4b224190d784ad43b28d6, type: 2}
+  materials:
+  - {fileID: 2100000, guid: e77615966370ed74793cda656078d340, type: 2}
+  radii:
+  - 0.4330536
+  - 0.36759865
+  - 0.29610136
+  - 0.2524659
+  - 0.23065999
+  - 0.22175556
+  - 0.21832778
+  - 0.2141257
+  - 0.2107528
+  - 0.20990959
+  - 0.209423
+  - 0.20807956
+  - 0.20557831
+  - 0.20228633
+  - 0.19867732
+  - 0.1948577
+  - 0.19077343
+  - 0.18843219
+  - 0.18577397
+  - 0.18353023
+  - 0.18160002
+  - 0.17941552
+  - 0.17812437
+  - 0.17668436
+  - 0.17460792
+  - 0.17111045
+  - 0.16798624
+  - 0.16151741
+  - 0.15498316
+  - 0.14994073
+  - 0.146138
+  bark: {r: 0.74982196, g: 0.74982196, b: 0.74982196, a: 1}
+  height: 9.088743

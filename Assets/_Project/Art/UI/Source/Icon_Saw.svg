@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256">
+  <!-- Hotbar icon for the saw (it has no model yet). Rendered to ../Icon_Saw.png. -->
+  <path d="M6 40 L44 22 L50 34 L12 50 Z" fill="#c9ccd1" stroke="#333" stroke-width="1.5"/>
+  <path d="M12 50 l2-4 l2 3 l2-4 l2 3 l2-4 l2 3 l2-4 l2 3 l2-4 l2 3 l2-4 l2 3 l2-4 l2 3 l2-4 l2 3 l2-4 L50 34" fill="none" stroke="#555" stroke-width="1.2"/>
+  <path d="M42 18 q8-6 16 2 l-4 14 q-6 2 -10 -2 Z" fill="#a0612e" stroke="#3a200d" stroke-width="1.5"/>
+  <ellipse cx="51" cy="24" rx="3.2" ry="4.4" fill="#3a200d" opacity=".75"/>
+</svg>
